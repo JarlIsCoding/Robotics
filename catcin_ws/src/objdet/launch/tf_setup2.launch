@@ -1,0 +1,4 @@
+<launch>
+<node pkg="tf" type="static_transform_publisher" name="f1tof2" args="0.82 0 0 -1.5708 0 1.5708  F1 F2 100" />
+<node pkg="tf" type="static_transform_publisher" name="f1tof3" args="0.82 0.71 0 0 -1.5708 1.0472 F1 F3 100" />
+</launch>

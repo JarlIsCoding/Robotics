@@ -1,0 +1,8 @@
+prefix=/home/student/catcin_ws/install
+
+Name: objdet
+Description: Description of objdet
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

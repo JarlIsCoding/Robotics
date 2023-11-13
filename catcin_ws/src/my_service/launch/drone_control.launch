@@ -1,0 +1,7 @@
+<launch>
+  <!-- Start the odometry subscriber -->
+  <node name="odometry_subscriber_node" pkg="my_service" type="odometry_subscriber.py" output="screen" />
+
+  <!-- Start the PID controller -->
+  <node name="pid_controller_node" pkg="my_service" type="pid_controller.py" output="screen" />
+</launch>

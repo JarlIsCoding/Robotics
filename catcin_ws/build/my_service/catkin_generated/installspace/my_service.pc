@@ -1,0 +1,8 @@
+prefix=/home/student/catcin_ws/install
+
+Name: my_service
+Description: Description of my_service
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
